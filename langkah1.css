@@ -1,0 +1,16 @@
+.container {
+	max-width: none;
+	width: 100%;
+	background-color: #DEB887 ;	
+}
+
+/*pemanggilan attribut buatan sendiri*/
+div[class*="col-"]{
+	border:1px solid black;
+	padding:0px;
+}
+/*<div class="container">*/
+img{
+	padding: 0px;
+	margin: 0px;
+}
