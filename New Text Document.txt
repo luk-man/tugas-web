@@ -1,0 +1,75 @@
+Microsoft Windows [Version 10.0.16299.192]
+(c) 2017 Microsoft Corporation. All rights reserved.
+
+E:\web>dir
+ Volume in drive E has no label.
+ Volume Serial Number is 3C8F-BD69
+
+ Directory of E:\web
+
+04/02/2018  02:00 PM    <DIR>          .
+04/02/2018  02:00 PM    <DIR>          ..
+03/31/2018  12:21 PM    <DIR>          css
+03/31/2018  12:21 PM    <DIR>          fonts
+03/31/2018  12:21 PM    <DIR>          js
+04/02/2018  01:28 PM               257 langkah1.css
+04/02/2018  08:10 AM           187,909 logo1.jpg
+04/04/2018  02:26 PM               939 satu.html
+               3 File(s)        189,105 bytes
+               5 Dir(s)  723,983,028,224 bytes free
+
+E:\web>git init
+Reinitialized existing Git repository in E:/web/.git/
+
+E:\web>git add *
+warning: LF will be replaced by CRLF in css/bootstrap-theme.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in css/bootstrap-theme.min.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in css/bootstrap.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in css/bootstrap.min.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in fonts/glyphicons-halflings-regular.svg.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in js/bootstrap.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in js/bootstrap.min.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in js/npm.js.
+The file will have its original line endings in your working directory.
+
+E:\web>git commit -m "tambah file"
+[master c849d3f] tambah file
+ 19 files changed, 10071 insertions(+), 11 deletions(-)
+ create mode 100644 css/bootstrap-theme.css
+ create mode 100644 css/bootstrap-theme.css.map
+ create mode 100644 css/bootstrap-theme.min.css
+ create mode 100644 css/bootstrap-theme.min.css.map
+ create mode 100644 css/bootstrap.css
+ create mode 100644 css/bootstrap.css.map
+ create mode 100644 css/bootstrap.min.css
+ create mode 100644 css/bootstrap.min.css.map
+ create mode 100644 fonts/glyphicons-halflings-regular.eot
+ create mode 100644 fonts/glyphicons-halflings-regular.svg
+ create mode 100644 fonts/glyphicons-halflings-regular.ttf
+ create mode 100644 fonts/glyphicons-halflings-regular.woff
+ create mode 100644 fonts/glyphicons-halflings-regular.woff2
+ create mode 100644 js/bootstrap.js
+ create mode 100644 js/bootstrap.min.js
+ create mode 100644 js/npm.js
+ create mode 100644 langkah1.css
+ create mode 100644 logo1.jpg
+
+E:\web>git push -u origin master
+Counting objects: 24, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (24/24), done.
+Writing objects: 100% (24/24), 469.58 KiB | 4.35 MiB/s, done.
+Total 24 (delta 6), reused 0 (delta 0)
+remote: Resolving deltas: 100% (6/6), completed with 1 local object.
+To https://github.com/luk-man/tugas-web.git
+   f0f4fcf..c849d3f  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+E:\web>git init
